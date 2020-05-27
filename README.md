@@ -1,6 +1,6 @@
-# docker-nmap
+# nmap
 
-Minimal docker image ([alpine:latest](https://hub.docker.com/_/alpine)) with nmap installed.
+Minimal docker image ([alpine:latest](https://hub.docker.com/_/alpine)) with [nmap](https://nmap.org/) installed.
 
 - [jonlabelle/nmap](https://hub.docker.com/r/jonlabelle/nmap) on Docker Hub
 - [Dockerfile](https://github.com/jonlabelle/docker-alpine-nmap/blob/master/Dockerfile)
