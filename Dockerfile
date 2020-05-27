@@ -4,4 +4,4 @@ MAINTAINER Jon LaBelle <contact@jonlabelle.com>
 RUN apk -U upgrade && \
 	apk add --no-cache nmap
 
-CMD ["/usr/bin/nmap"]
+ENTRYPOINT ["/usr/bin/nmap"]
