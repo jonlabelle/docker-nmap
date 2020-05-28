@@ -1,5 +1,6 @@
 NAME=nmap
 VERSION=dev
+
 IMAGE_NAME=$(NAME):$(VERSION)
 
 .PHONY: build
