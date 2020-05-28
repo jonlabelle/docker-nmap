@@ -8,7 +8,7 @@ Minimal (\~8 MB) Docker image ([alpine:latest](https://hub.docker.com/_/alpine))
 ## Usage
 
 ```bash
-docker run --rm jonlabelle/nmap [nmap options] <nmap target>
+docker run [run options] jonlabelle/nmap [nmap options] <nmap target>
 ```
 
 > See official [Nmap Reference Guide](https://nmap.org/book/man-briefoptions.html) for options summary.
