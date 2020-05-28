@@ -15,7 +15,7 @@ docker run [run options] jonlabelle/nmap [nmap options] <nmap target>
 
 ## Example
 
-To run *nmap* and scan local network `10.0.10.0/24`:
+To [run](https://docs.docker.com/engine/reference/commandline/run/) *nmap* and scan local network `10.0.10.0/24`:
 
 ```bash
 docker run --rm jonlabelle/nmap -v 10.0.10.0/24
