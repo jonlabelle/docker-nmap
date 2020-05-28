@@ -1,6 +1,6 @@
 # nmap
 
-Minimal (\~8 MB) Docker image ([alpine:latest](https://hub.docker.com/_/alpine)) with [nmap](https://nmap.org/) installed.
+Minimal (\~8 MB) Docker image ([alpine:latest](https://hub.docker.com/_/alpine)) with [Nmap](https://nmap.org/) installed.
 
 - [jonlabelle/nmap](https://hub.docker.com/r/jonlabelle/nmap) on Docker Hub
 - [Dockerfile](https://github.com/jonlabelle/docker-alpine-nmap/blob/master/Dockerfile) on GitHub
