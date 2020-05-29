@@ -13,7 +13,7 @@ docker run [run options] jonlabelle/nmap [nmap options] <nmap target>
 
 > See official [Nmap Reference Guide](https://nmap.org/book/man-briefoptions.html) for options summary.
 
-## Example
+## Examples
 
 To [run](https://docs.docker.com/engine/reference/commandline/run/) *nmap* and scan local network `10.0.10.0/24`:
 
@@ -22,3 +22,9 @@ docker run --rm jonlabelle/nmap -v 10.0.10.0/24
 ```
 
 > `--rm` will automatically remove the container upon exiting.
+
+To perform TLS cipher scan against a host to determine supported ciphers and SSL/TLS protocols:
+
+```bash
+docker run --rm jonlabelle/nmap --script ssl-enum-ciphers <host> -p 443
+```
