@@ -1,6 +1,6 @@
 # Docker Nmap Image
 
-Minimal (\~8 MB compressed) Docker image ([alpine:latest](https://hub.docker.com/_/alpine)) with [Nmap](https://nmap.org/) Network Security Scanner installed.
+Minimal (11 MB compressed) Docker image ([alpine:latest](https://hub.docker.com/_/alpine)) with [Nmap](https://nmap.org/) Network Security Scanner installed.
 
 - [jonlabelle/nmap](https://hub.docker.com/r/jonlabelle/nmap) on Docker Hub
 - [Dockerfile](https://github.com/jonlabelle/docker-nmap/blob/master/Dockerfile) on GitHub
