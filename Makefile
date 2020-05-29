@@ -7,6 +7,10 @@ IMAGE_NAME=$(NAME):$(VERSION)
 build:
 	docker build --rm -t $(IMAGE_NAME) .
 
+.PHONY:
+test:
+	docker-compose -f docker-compose.test.yml up --build
+
 .PHONY: clean
 clean:
 	docker rmi $(IMAGE_NAME)
