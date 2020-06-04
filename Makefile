@@ -7,7 +7,7 @@ IMAGE_NAME=$(NAME):$(VERSION)
 build:
 	docker build --rm -t $(IMAGE_NAME) .
 
-.PHONY:
+.PHONY: test
 test:
 	docker-compose -f docker-compose.test.yml up --build
 
