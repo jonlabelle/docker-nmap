@@ -33,6 +33,6 @@ docker run --rm jonlabelle/nmap --script ssl-enum-ciphers <host> -p 443
 
 ## Also see
 
-- [jonlabelle/docker-network-tools](https://github.com/jonlabelle/docker-network-tools) - Minimal Docker image with various network tools pre-installed.
+- [jonlabelle/network-tools](https://hub.docker.com/r/jonlabelle/network-tools) - Minimal Docker image with various network tools pre-installed.
 
 [dockerhub]: https://hub.docker.com/r/jonlabelle/nmap
