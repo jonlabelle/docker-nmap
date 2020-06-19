@@ -2,7 +2,7 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/jonlabelle/nmap.svg)][dockerhub]
 
-Minimal (11 MB compressed) Docker image ([alpine:latest](https://hub.docker.com/_/alpine)) with [Nmap](https://nmap.org/) Network Security Scanner pre-installed.
+> Minimal Docker image ([alpine:latest](https://hub.docker.com/_/alpine)) with [Nmap](https://nmap.org/) Network Security Scanner pre-installed.
 
 - [jonlabelle/nmap](https://hub.docker.com/r/jonlabelle/nmap) on Docker Hub
 - [Dockerfile](https://github.com/jonlabelle/docker-nmap/blob/master/Dockerfile) on GitHub
