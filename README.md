@@ -2,7 +2,7 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/jonlabelle/nmap.svg)][dockerhub]
 
-Minimal (11 MB compressed) Docker image ([alpine:latest](https://hub.docker.com/_/alpine)) with [Nmap](https://nmap.org/) Network Security Scanner installed.
+Minimal (11 MB compressed) Docker image ([alpine:latest](https://hub.docker.com/_/alpine)) with [Nmap](https://nmap.org/) Network Security Scanner pre-installed.
 
 - [jonlabelle/nmap](https://hub.docker.com/r/jonlabelle/nmap) on Docker Hub
 - [Dockerfile](https://github.com/jonlabelle/docker-nmap/blob/master/Dockerfile) on GitHub
@@ -30,5 +30,9 @@ To perform TLS cipher scan against a host to determine supported ciphers and SSL
 ```bash
 docker run --rm jonlabelle/nmap --script ssl-enum-ciphers <host> -p 443
 ```
+
+## Also see
+
+- [jonlabelle/docker-network-tools](https://github.com/jonlabelle/docker-network-tools) - Minimal Docker image with various network tools pre-installed.
 
 [dockerhub]: https://hub.docker.com/r/jonlabelle/nmap
