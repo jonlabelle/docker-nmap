@@ -1,7 +1,7 @@
 FROM alpine:latest
 
-LABEL maintainer="contact@jonlabelle.com"
-LABEL description="Minimal Docker image with Nmap Network Security Scanner pre-installed."
+LABEL maintainer="Jon LaBelle <contact@jonlabelle.com>" \
+      description="Minimal Docker image with Nmap Network Security Scanner pre-installed."
 
 RUN apk -U upgrade && apk add --no-cache \
     nmap \
