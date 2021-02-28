@@ -31,8 +31,13 @@ To perform TLS cipher scan against a host to determine supported ciphers and SSL
 docker run --rm jonlabelle/nmap --script ssl-enum-ciphers <host> -p 443
 ```
 
+## Additional Nmap resources
+
+- [Nmap Helper](https://competent-goldberg-e5eefe.netlify.app). Generate Nmap commands.
+- [threader3000](https://github.com/dievus/threader3000). Multi-threaded Python port scanner with Nmap integration for use on Linux or Windows.
+
 ## Also see
 
-- [jonlabelle/network-tools](https://hub.docker.com/r/jonlabelle/network-tools) - Minimal Docker image with various network tools pre-installed.
+- [jonlabelle/network-tools](https://hub.docker.com/r/jonlabelle/network-tools). Minimal Docker image with various network tools pre-installed.
 
 [dockerhub]: https://hub.docker.com/r/jonlabelle/nmap
