@@ -25,7 +25,7 @@ docker run --rm jonlabelle/nmap -v 10.0.10.0/24
 
 > `--rm` will automatically remove the container upon exiting.
 
-To enumerate supported TLS/SSL ciphers and protocols on a target:
+To enumerate supported TLS/SSL ciphers and protocols on `<target>`:
 
 ```bash
 docker run --rm jonlabelle/nmap --script ssl-enum-ciphers <target> -p 443
