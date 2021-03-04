@@ -13,7 +13,7 @@
 docker run [docker run options ...] jonlabelle/nmap [nmap options ...] <nmap target>
 ```
 
-> See official [Nmap Reference Guide](https://nmap.org/book/man-briefoptions.html) for options summary.
+> See official [Docker run](https://docs.docker.com/engine/reference/commandline/run/#options) and [Nmap](https://nmap.org/book/man-briefoptions.html) docs for additional options.
 
 ## Examples
 
