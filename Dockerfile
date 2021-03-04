@@ -1,6 +1,6 @@
-FROM alpine:latest
+FROM alpine:edge
 
-LABEL maintainer="Jon LaBelle <contact@jonlabelle.com>" \
+LABEL maintainer="Jon LaBelle <https://jonlabelle.com>" \
       description="Minimal Docker image with Nmap Network Security Scanner pre-installed." \
       org.label-schema.url="https://hub.docker.com/r/jonlabelle/nmap" \
       org.label-schema.vcs-url="https://github.com/jonlabelle/docker-nmap" \
