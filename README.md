@@ -1,4 +1,4 @@
-# Docker Nmap Image
+# Docker Nmap
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/jonlabelle/nmap.svg)][dockerhub]
 
