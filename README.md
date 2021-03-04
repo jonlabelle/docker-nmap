@@ -10,7 +10,7 @@
 ## Usage
 
 ```bash
-docker run [run options] jonlabelle/nmap [nmap options] <nmap target>
+docker run [docker run options ...] jonlabelle/nmap [nmap options ...] <nmap target>
 ```
 
 > See official [Nmap Reference Guide](https://nmap.org/book/man-briefoptions.html) for options summary.
