@@ -23,8 +23,6 @@ To scan for devices on local target `10.0.10.0/24`:
 docker run --rm jonlabelle/nmap -v 10.0.10.0/24
 ```
 
-> `--rm` will automatically remove the container upon exiting.
-
 To enumerate supported TLS/SSL ciphers and protocols on `<target>`:
 
 ```bash
