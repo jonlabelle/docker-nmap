@@ -11,7 +11,7 @@
 ## Usage
 
 ```bash
-docker run [docker run options ...] jonlabelle/nmap [nmap options ...] <nmap target>
+docker run [docker run options ...] jonlabelle/nmap [nmap options ...] <nmap target(s)>
 ```
 
 > See official [Docker run](https://docs.docker.com/engine/reference/commandline/run/#options) and [Nmap](https://nmap.org/book/man-briefoptions.html) docs for additional options.
@@ -21,13 +21,13 @@ docker run [docker run options ...] jonlabelle/nmap [nmap options ...] <nmap tar
 To scan for devices on local target `10.0.10.0/24`:
 
 ```bash
-docker run --rm jonlabelle/nmap -v 10.0.10.0/24
+docker run --rm -it jonlabelle/nmap -v 10.0.10.0/24
 ```
 
 To enumerate supported TLS/SSL ciphers and protocols on `<target>`:
 
 ```bash
-docker run --rm jonlabelle/nmap --script ssl-enum-ciphers <target> -p 443
+docker run --rm -it jonlabelle/nmap --script ssl-enum-ciphers <target> -p 443
 ```
 
 ## Additional Nmap resources
