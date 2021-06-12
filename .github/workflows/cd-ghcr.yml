@@ -8,6 +8,8 @@ env:
 
 jobs:
   push:
+    name: Push to GitHub Container Registry
+    if: ${{ github.event_name != 'pull_request' }}
     runs-on: ubuntu-latest
     permissions:
       packages: write
