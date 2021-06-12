@@ -18,9 +18,9 @@ docker run [docker run options ...] jonlabelle/nmap [nmap options ...] <nmap tar
 
 ## Examples
 
-> **NOTE** To pull from the [GitHub Container Registry], instead
+> **NOTE:** To pull from the [GitHub Container Registry], instead
 > of [Docker Hub], replace `jonlabelle/nmap` with `ghcr.io/jonlabelle/nmap` in
-> the example below.
+> the examples below.
 
 To scan for devices on local target `10.0.10.0/24`:
 
