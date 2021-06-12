@@ -6,9 +6,6 @@
 
 > Minimal Docker image ([alpine:edge]) with [Nmap](https://nmap.org/) Network Security Scanner pre-installed.
 
-- [jonlabelle/nmap](https://hub.docker.com/r/jonlabelle/nmap) on Docker Hub
-- [Dockerfile](https://github.com/jonlabelle/docker-nmap/blob/master/Dockerfile) on GitHub
-
 ## Usage
 
 ```bash
