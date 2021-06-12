@@ -16,8 +16,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    name: cd
+  push:
+    name: Push to Docker Hub
+    if: ${{ github.event_name != 'pull_request' }}
     runs-on: ubuntu-latest
 
     steps:
