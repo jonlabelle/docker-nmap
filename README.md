@@ -1,7 +1,7 @@
 # Docker Nmap
 
 [![cd](https://github.com/jonlabelle/docker-nmap/actions/workflows/cd.yml/badge.svg?branch=master)](https://github.com/jonlabelle/docker-nmap/actions/workflows/cd.yml)
-[![Docker Pulls](https://img.shields.io/docker/pulls/jonlabelle/nmap.svg)][dockerhub]
+[![Docker Hub Pulls](https://img.shields.io/docker/pulls/jonlabelle/nmap.svg?label=docker%20hub%20pulls)][dockerhub]
 
 > Minimal Docker image ([alpine:edge]) with [Nmap](https://nmap.org/) Network Security Scanner pre-installed.
 
