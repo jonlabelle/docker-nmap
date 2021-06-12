@@ -18,6 +18,10 @@ docker run [docker run options ...] jonlabelle/nmap [nmap options ...] <nmap tar
 
 ## Examples
 
+> **NOTE** To pull from the [GitHub Container Registry], instead
+> of [Docker Hub], replace `jonlabelle/nmap` with `ghcr.io/jonlabelle/nmap` in
+> the example below.
+
 To scan for devices on local target `10.0.10.0/24`:
 
 ```bash
@@ -40,4 +44,6 @@ docker run --rm -it jonlabelle/nmap --script ssl-enum-ciphers <target> -p 443
 - [jonlabelle/network-tools](https://hub.docker.com/r/jonlabelle/network-tools). Minimal Docker image with various network tools pre-installed.
 
 [dockerhub]: https://hub.docker.com/r/jonlabelle/nmap
+[Docker Hub]: https://hub.docker.com/r/jonlabelle/nmap
 [alpine:edge]: https://hub.docker.com/_/alpine?tab=tags&page=1&ordering=last_updated&name=edge
+[GitHub Container Registry]: https://github.com/users/jonlabelle/packages/container/package/nmap
