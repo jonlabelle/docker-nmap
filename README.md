@@ -2,7 +2,7 @@
 
 [![cd](https://github.com/jonlabelle/docker-nmap/actions/workflows/cd.yml/badge.svg?branch=master)](https://github.com/jonlabelle/docker-nmap/actions/workflows/cd.yml)
 [![cd-ghcr](https://github.com/jonlabelle/docker-nmap/actions/workflows/cd-ghcr.yml/badge.svg?branch=master)](https://github.com/jonlabelle/docker-nmap/actions/workflows/cd-ghcr.yml)
-[![Docker Hub Pulls](https://img.shields.io/docker/pulls/jonlabelle/nmap.svg?label=docker%20hub%20pulls)][dockerhub]
+[![Docker Hub pulls](https://img.shields.io/docker/pulls/jonlabelle/nmap.svg?label=docker%20hub%20pulls)][dockerhub]
 
 > Minimal Docker image ([alpine:edge]) with [Nmap](https://nmap.org/) Network Security Scanner pre-installed.
 
@@ -16,9 +16,9 @@ docker run [docker run options ...] jonlabelle/nmap [nmap options ...] <nmap tar
 
 ## Examples
 
-> **NOTE:** To pull from the [GitHub Container Registry], instead
-> of [Docker Hub], replace `jonlabelle/nmap` with `ghcr.io/jonlabelle/nmap` in
-> the examples below.
+> **NOTE:** To pull from [GitHub Container Registry], instead of [Docker Hub],
+> replace `jonlabelle/nmap` with `ghcr.io/jonlabelle/nmap` in the examples
+> below.
 
 To scan for devices on local target `10.0.10.0/24`:
 
@@ -39,7 +39,7 @@ docker run --rm -it jonlabelle/nmap --script ssl-enum-ciphers <target> -p 443
 
 ## Related
 
-- [jonlabelle/network-tools](https://hub.docker.com/r/jonlabelle/network-tools). Minimal Docker image with various network tools pre-installed.
+- [jonlabelle/docker-network-tools](https://github.com/jonlabelle/docker-network-tools). Minimal Docker image with various network tools pre-installed.
 
 [dockerhub]: https://hub.docker.com/r/jonlabelle/nmap
 [Docker Hub]: https://hub.docker.com/r/jonlabelle/nmap
