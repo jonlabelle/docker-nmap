@@ -1,6 +1,12 @@
 name: cd-ghcr
 
 on:
+  push:
+    branches: [master]
+    paths-ignore:
+      - "*.md"
+      - ".editorconfig"
+
   workflow_dispatch:
 
 env:
