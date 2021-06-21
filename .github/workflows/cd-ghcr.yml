@@ -17,7 +17,7 @@ env:
 
 jobs:
   push:
-    name: Push to GitHub Container Registry
+    name: Push to GitHub container registry
     if: ${{ github.event_name != 'pull_request' }}
     runs-on: ubuntu-latest
     permissions:
@@ -34,7 +34,7 @@ jobs:
       - name: Build Docker image
         run: docker build . --file Dockerfile --tag $IMAGE_NAME
 
-      - name: Log into registry ${{ env.REGISTRY }}
+      - name: Log into GitHub container registry ${{ env.REGISTRY }}
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ${{ env.REGISTRY }} -u ${{ github.actor }} --password-stdin
 
       - name: Push Docker image
