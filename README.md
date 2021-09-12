@@ -42,5 +42,4 @@ docker run --rm -it jonlabelle/nmap --script ssl-enum-ciphers <target> -p 443
 
 [dockerhub]: https://hub.docker.com/r/jonlabelle/nmap
 [Docker Hub]: https://hub.docker.com/r/jonlabelle/nmap
-[alpine:edge]: https://hub.docker.com/_/alpine?tab=tags&page=1&ordering=last_updated&name=edge
 [GitHub Container Registry]: https://github.com/users/jonlabelle/packages/container/package/nmap
