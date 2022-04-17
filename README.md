@@ -2,6 +2,7 @@
 
 [![cd](https://github.com/jonlabelle/docker-nmap/actions/workflows/cd.yml/badge.svg)](https://github.com/jonlabelle/docker-nmap/actions/workflows/cd.yml)
 [![Docker Hub pulls](https://img.shields.io/docker/pulls/jonlabelle/nmap.svg)][dockerhub]
+[![CodeQL Analysis](https://github.com/jonlabelle/docker-nmap/actions/workflows/code-analysis.yml/badge.svg)](https://github.com/jonlabelle/docker-nmap/actions/workflows/code-analysis.yml "CodeQL Analysis")
 
 > Minimal Docker image with [Nmap](https://nmap.org/) Network Security Scanner pre-installed.
 
