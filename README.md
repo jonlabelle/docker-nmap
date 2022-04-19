@@ -1,7 +1,7 @@
 # Docker Nmap
 
 [![cd](https://github.com/jonlabelle/docker-nmap/actions/workflows/cd.yml/badge.svg)](https://github.com/jonlabelle/docker-nmap/actions/workflows/cd.yml)
-[![Docker Hub pulls](https://img.shields.io/docker/pulls/jonlabelle/nmap.svg)][dockerhub]
+[![docker pulls](https://img.shields.io/docker/pulls/jonlabelle/nmap?label=docker%20pulls)](https://hub.docker.com/r/jonlabelle/nmap)
 ![image size](https://img.shields.io/docker/image-size/jonlabelle/nmap/latest?label=image%20size)
 
 > Minimal Docker image with [Nmap](https://nmap.org/) Network Security Scanner pre-installed.
@@ -41,6 +41,4 @@ docker run --rm -it jonlabelle/nmap --script ssl-enum-ciphers <target> -p 443
 
 - [jonlabelle/docker-network-tools](https://github.com/jonlabelle/docker-network-tools). Minimal Docker image with various network tools pre-installed.
 
-[dockerhub]: https://hub.docker.com/r/jonlabelle/nmap
-[Docker Hub]: https://hub.docker.com/r/jonlabelle/nmap
-[GitHub Container Registry]: https://github.com/users/jonlabelle/packages/container/package/nmap
+[github container registry]: https://github.com/users/jonlabelle/packages/container/package/nmap
