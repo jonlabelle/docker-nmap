@@ -1,5 +1,3 @@
-SHELL := /bin/sh
-
 NAME := nmap
 TAG := dev
 
