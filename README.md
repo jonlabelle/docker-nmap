@@ -16,7 +16,7 @@ docker run [docker run options ...] jonlabelle/nmap [nmap options ...] <nmap tar
 
 ## Examples
 
-> **NOTE:** To pull from [GitHub Container Registry], instead of [Docker Hub],
+> **NOTE:** To pull from [GitHub Container Registry], instead of [Docker Hub](https://hub.docker.com/r/jonlabelle/nmap),
 > replace `jonlabelle/nmap` with `ghcr.io/jonlabelle/nmap` in the examples
 > below.
 
