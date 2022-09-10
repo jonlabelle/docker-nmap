@@ -91,4 +91,4 @@ jobs:
           pip install --requirement .github/scripts/ghcr/prune/requirements.txt
 
       - name: Prune all untagged images
-        run: python .github/scripts/ghcr/prune/prune.py --container network-tools --prune-all-untagged --verbose
+        run: python .github/scripts/ghcr/prune/prune.py --container nmap --prune-all-untagged --verbose
