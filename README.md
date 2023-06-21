@@ -32,6 +32,12 @@ To enumerate supported TLS/SSL ciphers and protocols on `<target>`:
 docker run --rm -it jonlabelle/nmap --script ssl-enum-ciphers <target> -p 443
 ```
 
+To scan a range of network addresses for open SSH ports:
+
+```bash
+ docker run -it --rm jonlabelle/nmap -sT 10.0.10.1-100 -p 22
+ ```
+
 To show nmap help information:
 
 ```bash
