@@ -32,6 +32,12 @@ To enumerate supported TLS/SSL ciphers and protocols on `<target>`:
 docker run --rm -it jonlabelle/nmap --script ssl-enum-ciphers <target> -p 443
 ```
 
+To show nmap help information:
+
+```bash
+docker run -it --rm jonlabelle/nmap --help
+```
+
 ## Additional Nmap resources
 
 - [Nmap Helper](https://competent-goldberg-e5eefe.netlify.app). Generate Nmap commands.
