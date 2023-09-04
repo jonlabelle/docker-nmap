@@ -21,7 +21,7 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Log in to Docker Hub
         if: ${{ github.event_name != 'pull_request' }}
@@ -78,7 +78,7 @@ jobs:
 
     steps:
       - name: Checkout Git repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Python
         uses: actions/setup-python@v4
