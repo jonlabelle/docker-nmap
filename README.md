@@ -49,8 +49,9 @@ docker run -it --rm jonlabelle/nmap --help
 - [Nmap Helper](https://competent-goldberg-e5eefe.netlify.app). Generate Nmap commands.
 - [threader3000](https://github.com/dievus/threader3000). Multi-threaded Python port scanner with Nmap integration for use on Linux or Windows.
 
-## Related
+## My other Docker repos
 
-- [jonlabelle/docker-network-tools](https://github.com/jonlabelle/docker-network-tools). Minimal Docker image with various network tools pre-installed.
+- [jonlabelle/docker-network-tools](https://github.com/jonlabelle/docker-network-tools) — A Docker image with various network tools pre-installed
+- [jonlabelle/docker-bfg](https://github.com/jonlabelle/docker-bfg) — Docker image for BFG Repo-Cleaner, a tool for removing large files and sensitive data from Git repository history
 
 [github container registry]: https://github.com/users/jonlabelle/packages/container/package/nmap
