@@ -52,6 +52,6 @@ docker run -it --rm jonlabelle/nmap --help
 ## My other Docker repos
 
 - [jonlabelle/docker-network-tools](https://github.com/jonlabelle/docker-network-tools) — A Docker image with various network tools pre-installed
-- [jonlabelle/docker-bfg](https://github.com/jonlabelle/docker-bfg) — Docker image for BFG Repo-Cleaner, a tool for removing large files and sensitive data from Git repository history
+- [jonlabelle/docker-bfg](https://github.com/jonlabelle/docker-bfg) — Docker image for BFG Repo-Cleaner
 
 [github container registry]: https://github.com/users/jonlabelle/packages/container/package/nmap
